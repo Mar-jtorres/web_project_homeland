@@ -1,0 +1,191 @@
+
+body {
+  background-color: #2a2c2f;
+}
+.page {
+        max-width: 80vw; /* establece el ancho para version escritorio */
+        min-height: 100vh; /* establece la altura de la pagina */
+        margin: 0 auto; /* centra el contenido */
+        font-family: "Inter", Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /*background-color: #2a2c2f;*/
+        /*padding: 0 2vw;*/
+      }
+.header {
+ display: flex;
+ justify-content:center;
+ padding: 2rem 0;
+}
+.header__logo {
+width: 16vw; 
+height: auto;
+
+}
+.content{
+  /*flex: 1;  /* Esto hace que main ocupe todo el espacio disponible */
+  display: flex;
+  flex-direction: column;
+}
+.lead {
+display: flex;
+flex-direction: column;
+align-items: center;
+/*justify-con
+max-width: 62vw;
+min-height: auto;*/
+
+color: #ffffff;
+
+}
+.lead__title {
+ max-width: 73%;
+ max-height: 20%;
+
+}
+.lead__subtitle {
+  font-family: "Inter" Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  line-height: 1.5rem;
+  max-width: 73%;
+  margin-bottom: 2em;
+  text-align: center;
+} 
+.lead__image{
+  width: 100%;
+  height: auto;
+  
+  
+}  
+.intro{
+ /*max-width: 62vw;*/
+ /*max-height: 607px;*/
+ color: #ffffff;
+ display: flex;
+ flex-direction: column;
+ 
+}
+.intro__title{
+ max-width: 100%;
+ font-family: "Inter" Arial, Helvetica, sans-serif;
+ font-weight: 900;
+ font-size: 2.8rem;
+ line-height: 3rem;
+ 
+
+}
+.intro__quote{
+ max-width: 90%;
+ font-family: "Inter", Arial, Helvetica, sans-serif;
+ font-weight: 400;
+ font-size: 1.5rem;
+ line-height: 2rem;
+ margin-left: 0;
+}
+.intro__quote-cite{ 
+ max-width: 90%;
+ font-family: "Inter" Arial, Helvetica, sans-serif;
+ font-weight: 400;
+ font-size: 1.5rem;
+ line-height: 2rem;
+ text-align: right;
+ 
+}
+.intro__paragraph {
+  max-width: 90%;
+  max-height: 30%;
+  font-family: 'Inter' Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: clamp(1rem, 1.1vw, 1rem);
+  line-height: 1.5rem;
+  
+}
+.footer{
+ display: flex;
+ justify-content: center;
+ padding: 6vh 0 0 0;
+ color: #ffffff;
+
+ 
+}
+.footer__copyright {
+ font-family: 'Inter' Arial, Helvetica, sans-serif;
+ font-weight: 400;
+ font-size: 0.8rem;
+ line-height: 1rem;
+ /*margin-top: 10rem;*/
+ 
+}
+
+
+@media screen and (max-width: 768px) {
+  .header__logo {
+    width: 33vw;
+    height: auto;
+  }
+  
+  .lead__image {
+      width: 100vw;
+      height: auto;
+  }
+  .intro {
+    max-width: 75vw;
+    padding-left: 1.5em;
+  }
+   
+}
+@media screen and (max-width: 544px){ 
+  .lead__subtitle { 
+  font-size: 1rem;  
+} 
+}
+@media screen and (max-width: 425px) {
+  .content {
+    align-items: center;
+  }
+  .lead__image {
+    width: 100vw; /*el total del ancho de la ventana */
+    height: auto;
+  }
+  .intro {
+    max-width: 95vw;
+    padding: 1em;
+  }
+}
+@media screen and (max-width: 320px) {
+  .page {
+    max-width: 95vw;
+  }
+  .content {
+    align-items: center;
+  
+  }
+  .header__logo {
+  width: 188px;
+  height: 52px;
+  }
+  .lead__image {
+    width: 320px;
+    height: 200px;
+  }
+  .intro {
+    max-width: 288px;
+    padding: 0;
+  }
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .intro__quote {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .intro__quote-cite {
+    font-size: 1rem;
+    line-height: 2;
+  }
+}
