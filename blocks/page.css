@@ -1,0 +1,14 @@
+/* ===WHOLE=== */
+body {
+    background-color: #2a2c2f;
+  }
+  .page {
+          max-width: 80vw; /* establece el ancho para version escritorio */
+          min-height: 100vh; /* establece la altura de la pagina */
+          margin: 0 auto; /* centra el contenido */
+          font-family: "Inter", Arial, sans-serif;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          
+        }

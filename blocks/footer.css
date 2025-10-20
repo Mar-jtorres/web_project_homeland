@@ -1,0 +1,18 @@
+/* ===FOOTER=== */
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 6vh 0 0 0;
+    color: #ffffff;
+   
+    
+   }
+   .footer__copyright {
+    font-family: 'Inter' Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    
+    
+   }
+   

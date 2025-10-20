@@ -1,0 +1,16 @@
+/* ===HEADER=== */
+.header {
+    display: flex;
+    justify-content:center;
+    padding: 2rem 0;
+   }
+   .header__logo {
+   width: 16vw; 
+   height: auto;
+   
+   }
+   .content{
+     
+     display: flex;
+     flex-direction: column;
+   }

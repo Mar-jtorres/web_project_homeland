@@ -1,0 +1,42 @@
+/* ===INTRO=== */
+.intro{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    
+   }
+   .intro__title{
+    max-width: 100%;
+    font-family: "Inter" Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 2.8rem;
+    line-height: 3rem;
+    
+   
+   }
+   .intro__quote{
+    max-width: 90%;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-left: 0;
+   }
+   .intro__quote-cite{ 
+    max-width: 90%;
+    font-family: "Inter" Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: right;
+    
+   }
+   .intro__paragraph {
+     max-width: 90%;
+     max-height: 30%;
+     font-family: 'Inter' Arial, Helvetica, sans-serif;
+     font-weight: 400;
+     font-size: clamp(1rem, 1.1vw, 1rem);
+     line-height: 1.5rem;
+     
+   }
