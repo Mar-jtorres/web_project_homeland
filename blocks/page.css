@@ -12,3 +12,17 @@ body {
           align-items: center;
           
         }
+        @media screen and (max-width: 425px) {
+          .page__content {
+            align-items: center;
+          }
+        }
+        @media screen and (max-width: 320px) {
+          .page {
+            max-width: 95vw;
+          }
+          .page__content {
+            align-items: center;
+          
+          }
+        }

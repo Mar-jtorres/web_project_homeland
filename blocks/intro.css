@@ -40,3 +40,35 @@
      line-height: 1.5rem;
      
    }
+   /* ===MEDIA QUERIES=== */
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: 75vw;
+    padding-left: 1.5em;
+  }
+}
+@media screen and (max-width: 425px) {
+  .intro {
+    max-width: 95vw;
+    padding: 1em;
+  }
+}
+@media screen and (max-width: 320px) {
+  .intro {
+    max-width: 90vw;
+    padding: 0;
+  }
+  .intro__title {
+    font-size: 2em;
+    line-height: 1;
+  }
+  .intro__quote {
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  .intro__quote-cite {
+    font-size: 1rem;
+    line-height: 2;
+  }
+}

@@ -1,0 +1,13 @@
+/* ===CONTENT===*/
+
+@media screen and (max-width: 425px) {
+    .content {
+      align-items: center;
+    }
+}
+@media screen and (max-width: 320px) {
+    .content {
+        align-items: center;
+      
+      }
+}
