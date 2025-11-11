@@ -3,23 +3,57 @@
 @import url(../blocks/intro.css);
 @import url(../blocks/lead.css);
 @import url(../blocks/footer.css);
-/*
+@import url(../blocks/photo-grid.css);
+@import url(../blocks/places.css);
 
 /* ===MEDIA QUERIES=== */
 @media screen and (max-width: 768px) {
   .header__logo {
     width: 33vw;
     height: auto;
+    
   }
-  
+  .lead {
+    max-width: 100%;
+  }
+  .lead__title {
+    max-width: 65%;
+    
+  }
+  .lead__subtitle {
+    font-size: 2rem;
+    line-height: 1.5;
+    max-width: 95vw;
+  }
   .lead__image {
-      width: 100vw;
+      max-width: 100vw;
       height: auto;
+      align-items: center;
   }
   .intro {
-    max-width: 75vw;
-    padding-left: 1.5em;
+    max-width: 90vw;
+    padding-left: 3em;
+    
+    
   }
+  .intro__title {
+    font-size: 3rem;
+  }
+  .photo-grid {
+    max-width: 100%;
+    
+  }
+   .photo-grid__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 352px 352px 352px 352px;
+
+    grid-gap: 5px 5px;
+    max-width: 100%;
+   }
+   .photo-grid__image{
+    
+   }
    
 }
 @media screen and (max-width: 544px){ 
