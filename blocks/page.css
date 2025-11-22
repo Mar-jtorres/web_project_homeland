@@ -1,6 +1,8 @@
 /* ===WHOLE=== */
 body {
     background-color: #2a2c2f;
+    display: flex;
+    align-items: center;
   }
   .page {
           max-width: 80vw; /* establece el ancho para version escritorio */
