@@ -5,7 +5,7 @@
 🚀 Tecnologías utilizadas
 
     HTML5
-    CSS3 / Flexbox / Media Queries
+    CSS3 / Flexbox / Media Queries / GRid
     Metodología BEM
     Git / GitHub
     TinyPNG (para compresión de imágenes)
@@ -24,6 +24,7 @@
     Alineación correcta de elementos como citas y copyright, evitando cortes en el fondo.
     Implementación de media queries para escalabilidad en diferentes tamaños de pantalla.
     Compresión de imágenes con TinyPNG para reducir el tamaño sin perder calidad.
+    Manejo de Grid.
 
 💡 Planes de mejora
 
