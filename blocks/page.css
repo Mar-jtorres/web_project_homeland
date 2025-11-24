@@ -7,6 +7,7 @@ body {
   .page {
           max-width: 80vw; /* establece el ancho para version escritorio */
           min-height: 100vh; /* establece la altura de la pagina */
+        
           margin: 0 auto; /* centra el contenido */
           font-family: "Inter", Arial, sans-serif;
           display: flex;
@@ -14,6 +15,8 @@ body {
           align-items: center;
           
         }
+        
+        
         @media screen and (max-width: 425px) {
           .page__content {
             align-items: center;
